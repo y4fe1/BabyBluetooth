@@ -30,7 +30,36 @@
 		F0644E511BA7B1C600AA0F9F /* BabyRhythm.m in Sources */ = {isa = PBXBuildFile; fileRef = F0644E501BA7B1C600AA0F9F /* BabyRhythm.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		79A03EE9287BC8380065B6D5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		79A03EDC287BC8370065B6D5 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		79A03EDF287BC8380065B6D5 /* AccountAuthenticationModificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountAuthenticationModificationViewController.h; sourceTree = "<group>"; };
+		79A03EE0287BC8380065B6D5 /* AccountAuthenticationModificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountAuthenticationModificationViewController.m; sourceTree = "<group>"; };
+		79A03EE3287BC8380065B6D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		79A03EE5287BC8380065B6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A03EF2287BC8530065B6D5 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		79A03EF5287BC8530065B6D5 /* SampleHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleHandler.h; sourceTree = "<group>"; };
+		79A03EF6287BC8540065B6D5 /* SampleHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleHandler.m; sourceTree = "<group>"; };
+		79A03EF8287BC8540065B6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A03EFF287BC8550065B6D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		79A03F02287BC8560065B6D5 /* BroadcastSetupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BroadcastSetupViewController.h; sourceTree = "<group>"; };
+		79A03F03287BC8560065B6D5 /* BroadcastSetupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BroadcastSetupViewController.m; sourceTree = "<group>"; };
+		79A03F05287BC8560065B6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A03F1A287BC86C0065B6D5 /* BroadcastSetupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BroadcastSetupViewController.h; sourceTree = "<group>"; };
+		79A03F1B287BC86C0065B6D5 /* BroadcastSetupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BroadcastSetupViewController.m; sourceTree = "<group>"; };
+		79A03F1D287BC86C0065B6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79CD9BD01CDB7395009DAD1C /* BabyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyDefine.h; sourceTree = "<group>"; };
 		79CD9BD11CDB7395009DAD1C /* BabyDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyDefine.m; sourceTree = "<group>"; };
 		E13AD4D31BB78EF900D61C84 /* BabyOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyOptions.h; sourceTree = "<group>"; };
@@ -83,11 +112,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79A03EDB287BC8370065B6D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79A03EDC287BC8370065B6D5 /* AuthenticationServices.framework */,
+				79A03EF2287BC8530065B6D5 /* ReplayKit.framework */,
+				79A03EFF287BC8550065B6D5 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79A03EDE287BC8380065B6D5 /* aa */ = {
+			isa = PBXGroup;
+			children = (
+				79A03EDF287BC8380065B6D5 /* AccountAuthenticationModificationViewController.h */,
+				79A03EE0287BC8380065B6D5 /* AccountAuthenticationModificationViewController.m */,
+				79A03EE2287BC8380065B6D5 /* MainInterface.storyboard */,
+				79A03EE5287BC8380065B6D5 /* Info.plist */,
+			);
+			path = aa;
+			sourceTree = "<group>";
+		};
+		79A03EF4287BC8530065B6D5 /* ss */ = {
+			isa = PBXGroup;
+			children = (
+				79A03EF5287BC8530065B6D5 /* SampleHandler.h */,
+				79A03EF6287BC8540065B6D5 /* SampleHandler.m */,
+				79A03EF8287BC8540065B6D5 /* Info.plist */,
+			);
+			path = ss;
+			sourceTree = "<group>";
+		};
+		79A03F01287BC8550065B6D5 /* ssSetupUI */ = {
+			isa = PBXGroup;
+			children = (
+				79A03F02287BC8560065B6D5 /* BroadcastSetupViewController.h */,
+				79A03F03287BC8560065B6D5 /* BroadcastSetupViewController.m */,
+				79A03F05287BC8560065B6D5 /* Info.plist */,
+			);
+			path = ssSetupUI;
+			sourceTree = "<group>";
+		};
+		79A03F19287BC86C0065B6D5 /* tt */ = {
+			isa = PBXGroup;
+			children = (
+				79A03F1A287BC86C0065B6D5 /* BroadcastSetupViewController.h */,
+				79A03F1B287BC86C0065B6D5 /* BroadcastSetupViewController.m */,
+				79A03F1D287BC86C0065B6D5 /* Info.plist */,
+			);
+			path = tt;
+			sourceTree = "<group>";
+		};
 		E1807E641B6CA29100E99C63 = {
 			isa = PBXGroup;
 			children = (
 				E1807EA91B6CA53A00E99C63 /* Framework */,
 				E1807E6F1B6CA29100E99C63 /* BabyBluetoothDemo */,
+				79A03EDE287BC8380065B6D5 /* aa */,
+				79A03EF4287BC8530065B6D5 /* ss */,
+				79A03F01287BC8550065B6D5 /* ssSetupUI */,
+				79A03F19287BC86C0065B6D5 /* tt */,
+				79A03EDB287BC8370065B6D5 /* Frameworks */,
 				E1807E6E1B6CA29100E99C63 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -196,6 +281,7 @@
 				E1807E691B6CA29100E99C63 /* Sources */,
 				E1807E6A1B6CA29100E99C63 /* Frameworks */,
 				E1807E6B1B6CA29100E99C63 /* Resources */,
+				79A03EE9287BC8380065B6D5 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -217,7 +303,7 @@
 				TargetAttributes = {
 					E1807E6C1B6CA29100E99C63 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = UK5GAN4FW3;
+						DevelopmentTeam = 9G2JJ2P39K;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 0;
@@ -231,6 +317,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -286,6 +373,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		79A03EE2287BC8380065B6D5 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79A03EE3287BC8380065B6D5 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		E1807E7A1B6CA29100E99C63 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -392,11 +487,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = UK5GAN4FW3;
+				DEVELOPMENT_TEAM = 9G2JJ2P39K;
 				INFOPLIST_FILE = BabyBluetoothAppDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.liuyanwei.babyBluetooth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaoyafei;
 				PRODUCT_NAME = BabyBluetoothAppDemo;
 				PROVISIONING_PROFILE = "";
 			};
@@ -408,11 +503,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = UK5GAN4FW3;
+				DEVELOPMENT_TEAM = 9G2JJ2P39K;
 				INFOPLIST_FILE = BabyBluetoothAppDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.liuyanwei.babyBluetooth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaoyafei;
 				PRODUCT_NAME = BabyBluetoothAppDemo;
 				PROVISIONING_PROFILE = "";
 			};
